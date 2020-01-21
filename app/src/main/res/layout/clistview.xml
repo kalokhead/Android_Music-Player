@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   />
+
+    <TextView
+
+        android:textSize="16dp"
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textColor="#ffffff"
+        android:background="#232b2b"
+        android:layout_margin="0.5dp"
+        android:paddingLeft="7dp"
+        android:drawableLeft="@mipmap/music"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical|left"
+        android:paddingRight="7dp"
+        android:paddingTop="5dp"
+       />
+</RelativeLayout>
